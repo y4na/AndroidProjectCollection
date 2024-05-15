@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="Change" android:id="@+id/mItemChange" >
+            <menu >
+                <item android:title="Change BG" android:id="@+id/btnChangeBG"/>
+                <item android:title="Text Color Change" android:id="@+id/btnChangeColor"/>
+                <item android:title="Change Text" android:id="@+id/btnChangeText"/>
+                <item android:title="Disappear Text" android:id="@+id/btnDisappearText"/>
+                <item android:title="Disappear Button" android:id="@+id/btnDisappear" />
+            </menu>
+        </item>
+        <item android:title="Reset" android:id="@+id/mItemReset" />
+        <item android:title="Exit" android:id="@+id/mItemExit"/>
+</menu>
